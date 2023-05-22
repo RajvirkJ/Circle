@@ -5,6 +5,7 @@ package circle;
 public class Circle {
 //radius is an instance variable
    private double radius;
+   // numberOfObjects is a static variable
    private static int numberOfObjects;
 
     public Circle() {
