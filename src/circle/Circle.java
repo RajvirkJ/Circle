@@ -16,7 +16,7 @@ public class Circle {
         this.radius = radius;
         numberOfObjects++;
     }
-// shows exception
+     
     public void setRadius(double radius) throws IllegalArgumentException {
         if (radius>=0) 
         this.radius= radius;
