@@ -3,7 +3,7 @@ package circle;
 
 
 public class Circle {
-
+//radius is an instance variable
    private double radius;
    private static int numberOfObjects;
 
