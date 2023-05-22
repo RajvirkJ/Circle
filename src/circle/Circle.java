@@ -7,7 +7,7 @@ public class Circle {
    private double radius;
    // numberOfObjects is a static variable
    private static int numberOfObjects;
-
+// creating a no-arg constructor
     public Circle() {
        this(1.0);
     }
@@ -16,7 +16,7 @@ public class Circle {
         this.radius = radius;
         numberOfObjects++;
     }
-    
+     
     public void setRadius(double radius) throws IllegalArgumentException {
         if (radius>=0) 
         this.radius= radius;
